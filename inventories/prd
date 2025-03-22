@@ -1,0 +1,15 @@
+# prd servers
+
+
+
+[junnon_servers]
+server1 ansible_host=3.252.146.89 ansible_user=ubuntu
+server2 ansible_host=34.244.206.166 ansible_user=ec2-user
+server3 ansible_host=3.250.71.36 ansible_user=ec2-user
+
+
+[junnon_servers:vars]
+ansible_python_interpreter=/usr/bin/python3
+ansible_ssh_private_key_file=/home/ubuntu/keys/terra-key-ansible.pem
+
+
